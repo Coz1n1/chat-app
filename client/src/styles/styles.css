@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(255, 133, 82);
+}
+
+.nav {
+    background-color: rgb(41, 115, 115);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    font-size: 2rem;
+}
+
+.nav li {
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.1em;
+}
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+}
+
+.title {
+    font-size: 5rem;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(233, 215, 88);
+}
+
+/* .nav li:hover {} */
+
+.logF {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(41, 115, 115);
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em;
+    margin-top: 10em;
+    border-radius: 25px;
+}
+
+.hL {
+    font-size: 3.5em;
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 0.3em;
+    color: rgb(233, 215, 88);
+}
+
+.inp {
+    color: white;
+    width: 35em;
+    height: 3em;
+    border-radius: 25px;
+    background-color: rgb(57, 57, 58);
+}
+
+.label {
+    color: white;
+    font-size: 1.5em;
+}
+
+.confirm {
+    width: 7em;
+    height: 3em;
+    border-radius: 25px;
+    margin-bottom: 1em;
+    background-color: rgb(233, 215, 88);
+    font-size: 1em;
+}
+
+.regF {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(41, 115, 115);
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em;
+    margin-top: 10em;
+    border-radius: 25px;
+}
+
+.hR {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(233, 215, 88);
+}
+
+.homeP {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(233, 215, 88);
+}
+
+#messages {
+    width: 50em;
+    height: 40em;
+    border: #15b0ab solid 5px;
+    border-radius: 25px;
+    background-color: rgb(233, 215, 88);
+    margin: auto;
+}
+
+#mainForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+#mes {
+    color: black;
+    width: 20em;
+    height: 2.5em;
+    border-radius: 25px;
+    background-color: #15b0ab;
+}
+
+#room {
+    color: black;
+    width: 20em;
+    height: 2.5em;
+    border-radius: 25px;
+    background-color: #15b0ab;
+}
+
+#mainForm>label {
+    font-size: 1.5em;
+    margin-right: 1em;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#send {
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 6em;
+    height: 3em;
+    border-radius: 25px;
+    background-color: rgb(57, 57, 58);
+    color: white;
+}
+
+#rButton {
+    margin-left: 1em;
+    width: 6em;
+    height: 3em;
+    border-radius: 25px;
+    background-color: rgb(57, 57, 58);
+    color: white;
+}
+
+.chat {
+    display: flex;
+}
+
+#author {
+    justify-content: flex-end;
+}
+
+#author .chat-message {
+    width: auto;
+    height: auto;
+    background-color: #15b0ab;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 25px;
+    margin-top: 1em;
+    justify-content: flex-end;
+}
+
+#guest {
+    justify-content: flex-start;
+}
+
+#guest .chat-message {
+    width: auto;
+    height: auto;
+    background-color: rgb(57, 57, 58);
+    color: white;
+    margin-left: 1em;
+    border-radius: 25px;
+    justify-content: flex-start;
+    margin-top: 1em;
+}
+
+.text {
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 5px;
+    margin-right: 5px;
+}
